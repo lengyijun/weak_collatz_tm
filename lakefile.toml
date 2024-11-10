@@ -1,0 +1,18 @@
+name = "weak_collatz_tm"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["WeakCollatzTm"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "WeakCollatzTm"
+
+[[lean_exe]]
+name = "Sim43"
+srcDir = "WeakCollatzTm"
