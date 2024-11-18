@@ -24,3 +24,12 @@ srcDir = "WeakCollatzTm/Tm61_2"
 [[lean_exe]]
 name = "Coverage61"
 srcDir = "WeakCollatzTm/Tm61_2"
+
+[[lean_exe]]
+name = "Sim56"
+srcDir = "WeakCollatzTm/Tm56_2"
+
+[[lean_exe]]
+name = "Coverage56"
+srcDir = "WeakCollatzTm/Tm56_2"
+
